@@ -1,0 +1,119 @@
+* {
+    text-decoration: none;
+    scroll-behavior: smooth;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #F3EEEA;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman';
+    position: fixed;
+    z-index: 1;
+    padding: 8px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+nav li {
+    list-style: none;
+    font-weight: bold;
+    margin-right: 30px;
+    padding: 25px 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li a:hover {
+    border-bottom: 2px solid black;
+}
+
+#hamnav label, #hamburger {
+    display: none;
+}
+
+main {
+    background-color: #e6e2df;
+    width: 100%;
+    height: 100%;
+}
+
+.awal {
+    display: flex;
+}
+
+.h1 h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #124561;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.h1 span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.btn-group {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.btn-group a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: black;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: 500;
+    transition: .3s;
+    z-index: 1;
+}
+
+.btn-group a:hover:nth-child(1) {
+    color: black;
+    background: transparent;
+
+}
+
+.btn-group a:nth-child(2) {
+    color: black;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+
+.btn-group a:hover:nth-child(2) {
+    color: #fff;
+    background: black;
+}
+
+.g p {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.sosmed {
+    justify-content: center;
+    text-align: center;
+    background-color:#e6e2df;
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+}

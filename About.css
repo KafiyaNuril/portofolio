@@ -1,0 +1,173 @@
+* {
+    text-decoration: none;
+    scroll-behavior: smooth;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #F3EEEA;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman';
+    position: fixed;
+    z-index: 1;
+    padding: 8px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+nav li {
+    list-style: none;
+    font-weight: bold;
+    margin-right: 30px;
+    padding: 25px 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li a:hover {
+    border-bottom: 2px solid black;
+}
+
+#hamnav label, #hamburger {
+    display: none;
+}
+
+main {
+    background-color: #e6e2df;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: 7%;
+    color: #776B5D;
+    font-size: 40px;
+}
+
+.box {
+    width: 90%;
+    height: 140px;
+    background-color: black;
+    margin: 50px;
+    box-shadow: 0px 10px #c3c3c2;
+    border-radius: 5px;
+    font-family: 'Luxurious Roman', serif;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+    padding-top: 35px;
+    color: #e6e2df;
+}
+
+.data {
+    list-style: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.data li {
+    padding-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-blank {
+    border-radius: 10px;
+    border: 3px solid rgb(195, 194, 194);
+}
+
+ section p {
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #9e9c9c;
+    background-color: #c2c1c1;
+    padding: 9px;
+    width: 50%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer p{
+    text-align: center;
+}
+
+@media screen and (max-width:430px) {
+    #hamnav label {
+        display: inline-block;
+        color: black;
+        background-color: whitesmoke;
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 10px 15px;
+    }
+
+    nav li {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 1px solid #333;
+    }
+
+    nav ul {
+        display: none;
+        background-color: whitesmoke;
+    }
+
+    nav input:checked ~ ul {
+        display: block;
+    }
+
+    main {
+        width: 430px;
+    }
+
+    .box {
+        width: 73%;
+        height: 80px;
+        font-size: 65px;
+        padding-top: 20px;
+        margin: 60px
+    }
+
+    .image-blank img {
+        width: 230px;
+    }
+
+    .data h3 {
+        margin-top: 20px;
+    }
+
+    .container {
+        display: block;
+        text-align: center;
+    }
+
+    section p {
+        width: auto;
+        margin-top: 34px;
+    }
+}

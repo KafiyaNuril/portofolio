@@ -1,0 +1,214 @@
+* {
+    text-decoration: none;
+    scroll-behavior: smooth;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #F3EEEA;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman';
+    position: fixed;
+    z-index: 1;
+    padding: 8px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+nav li {
+    list-style: none;
+    font-weight: bold;
+    margin-right: 30px;
+    padding: 25px 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li a:hover {
+    border-bottom: 2px solid black;
+}
+
+#hamnav label, #hamburger {
+    display: none;
+}
+
+main {
+    background-color: #e6e2df;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+}
+
+.udh h2 {
+    padding-top: 10%;
+    text-align: center;
+}
+
+section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.kotak {
+    background-color: #6ca3cf;
+    border-radius: 10px;
+    border: 2px solid #124561;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
+
+.kotak h4, .kotak p {
+    color: white;
+}
+
+.box1 img {
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.box2 img {
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.box3 img {
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.box2 {
+    background-color: white;
+}
+
+.jdl {
+    margin: 120px 0px 0px 50px;
+}
+
+
+.jdl h3 {
+    font-family: 'Gill Sans';
+}
+
+.pj {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.image{
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px 5px 0px 90px;
+    border: 2px solid rgb(158, 156, 156);
+    text-align: center;
+    width: 450px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+.g1 a {
+    border: 2px solid #6ca3cf;
+    border-radius: 5px;
+    background-color: #96c1e4;
+    padding: 0px 5px;
+}
+
+.g2 {
+    margin-right: 90px;
+}
+
+.cv {
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px 5px 0px 90px;
+    border: 2px solid rgb(158, 156, 156);
+    text-align: center;
+    width: 450px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+.cv a {
+    border: 2px solid #6ca3cf;
+    border-radius: 5px;
+    background-color: #96c1e4;
+    padding: 0px 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media screen and (max-width:430px) {
+    #hamnav label {
+        display: inline-block;
+        color: black;
+        background-color: whitesmoke;
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 10px 15px;
+    }
+
+    nav li {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 1px solid #333;
+    }
+
+    nav ul {
+        display: none;
+        background-color: whitesmoke;
+    }
+
+    nav input:checked ~ ul {
+        display: block;
+    }
+
+    main {
+        width: 450px;
+    }
+
+    section {
+        display: block;
+        justify-content: center;
+    }
+
+    .udh h2 {
+        padding-top: 30%;
+    }
+
+    .kotak {
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .pj {
+        display: block;
+        justify-content: center;
+    }
+
+    .image, .image img, .cv, .cv img {
+        width: 410px;
+    }
+
+    .image, .cv {
+        margin: 19px;
+    }
+}

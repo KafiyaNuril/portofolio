@@ -1,0 +1,53 @@
+/*responsive untuk android ke bawah devicenya */
+@media screen and (max-width:430px) {
+    #hamnav label {
+        display: inline-block;
+        color: black;
+        background-color: whitesmoke;
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 10px 15px;
+    }
+
+    nav li {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 1px solid #333;
+    }
+
+    nav ul {
+        display: none;
+        background-color: whitesmoke;
+    }
+
+    nav input:checked ~ ul {
+        display: block;
+    }
+
+    .awal {
+        display: block;
+    }
+
+    .h1 h1 {
+        padding-top: 150px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    main {
+        background-color: #e6e2df;
+        width: 430px;
+        height: 854px;
+    }
+
+    .btn-group {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .awal img {
+        padding-top: 40px;
+        width: 430px;
+    }
+}
