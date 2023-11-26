@@ -221,15 +221,23 @@ footer {
 
     section, .pj {
         flex-direction: column;
-        justify-content: center;
     }
 
     .kotak {
         margin-top: 10px;
     }
 
+    section .kotak{
+        justify-content: center;
+    }
+
     .pj {
         padding-bottom: 5px;
+        
+    }
+
+    .cv {
+        
     }
 }
 

@@ -51,3 +51,22 @@
         width: 430px;
     }
 }
+
+@media screen and (max-width:820px) {
+    .awal {
+        flex-direction: column;
+    }
+
+    .awal img {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .g p {
+        padding: 50px;
+    }
+
+    footer p {
+        padding-top: 10px;
+    }
+}
