@@ -59,7 +59,7 @@ main {
 section {
     margin-top: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .kotak {
@@ -69,6 +69,7 @@ section {
     text-align: center;
     width: 250px;
     height: 250px;
+    margin: 0px 50px;
 }
 
 .kotak h4, .kotak p {
@@ -155,7 +156,7 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:430px){
     #hamnav label {
         display: inline-block;
         color: black;
@@ -186,12 +187,11 @@ footer {
     }
 
     section {
-        display: block;
         justify-content: center;
     }
 
     .udh h2 {
-        padding-top: 30%;
+        padding-top: 25%;
     }
 
     .kotak {
@@ -202,6 +202,7 @@ footer {
     .pj {
         display: block;
         justify-content: center;
+        padding-bottom: 0px;
     }
 
     .image, .image img, .cv, .cv img {
@@ -209,6 +210,34 @@ footer {
     }
 
     .image, .cv {
-        margin: 19px;
+        margin: 0px 19px 19px 19px;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .udh h2  {
+        padding-top: 30%;
+    }
+
+    section, .pj {
+        flex-direction: column;
+    }
+
+    .kotak {
+        margin-top: 10px;
+    }
+
+    section .kotak{
+        justify-content: center;
+    }
+
+    .pj {
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (width:1024px) {
+    .pj {
+        flex-direction: column;
     }
 }
